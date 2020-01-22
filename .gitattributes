@@ -1,2 +1,0 @@
-D:/work/MSU/tensorflow_object_detection_arabidopsis_seeds/07_detection_on_jupyter-notebook/Arabidopsis_seed_detection/graph_train/frozen_inference_graph.pb filter=lfs diff=lfs merge=lfs -text
-*.pb filter=lfs diff=lfs merge=lfs -text
