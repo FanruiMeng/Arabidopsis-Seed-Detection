@@ -2,9 +2,8 @@
 1. install anaconda, tensorflow(version lower than 2.0)
 	pip3 install anaconda
 	pip3 install tensorflow==1.15
-2. downlow the tensorflow models 
-	https://github.com/tensorflow/models
-	unzip models
+2. downlow the tensorflow models, URL:
+	https://github.com/tensorflow/models; and then unzip models
 3. create a work directory 
 4. copy graph_train, research directory under models directory, detect_noimage.ipynb, and mscoco_label_map.pbtxt into your work directory
 5. replace research/object_detection/protos use already compiled protos.
