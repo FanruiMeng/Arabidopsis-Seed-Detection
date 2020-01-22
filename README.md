@@ -10,8 +10,8 @@
 5. replace research/object_detection/protos use already compiled protos.
 6. create a test_image directory at your work directory, and copy your images to test_images directory
 7. assign the home directory for jupyter
-	a. generate jupyter config file
+	A. generate jupyter config file
 		jupyter-notebook --generate-config 
-	b. go to config file change home directory to your work directory
+	B. go to config file change home directory to your work directory, like below:
 		c.NotebookApp.notebook_dir = 'your work directory'
 8. run detect_noimage.ipynb at jupyter-notebook
