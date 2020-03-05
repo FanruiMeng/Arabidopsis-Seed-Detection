@@ -2,10 +2,11 @@ import os, sys
 import time
 from PIL import Image,ImageDraw
 ##absolute path of scanned images 
-path = "C:\\Users\\Fanrui Meng\\Desktop\\test"
+path = "C:\\Users\\Desktop\\test"
 os.chdir(path)
 all_images = [f for f in os.listdir(path ) if f.endswith("jpg")]
-print(all_images)
+
+print(all_images)
 ##create directory for splited images
 if not os.path.exists(path+"\\single_plate"):
 	os.mkdir("single_plate")
