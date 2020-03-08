@@ -16,3 +16,4 @@
 8. split scanned images into single plate.
    python 00_1_split_scan_images.py
 9. run detect_noimage.ipynb at jupyter-notebook
+#If you want to save the results images, please use detect_save_image_results.ipynb
