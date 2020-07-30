@@ -1,7 +1,7 @@
 # Arabidopsis-Seed-Detection
 1. install anaconda, tensorflow(version lower than 2.0)
 	pip3 install anaconda
-	pip3 install tensorflow==1.15
+	pip3 install tensorflow==1.13
 2. downlow the tensorflow models, URL:
 	https://github.com/tensorflow/models; and then unzip models, you can find a research directory under models
 3. create a work directory 
