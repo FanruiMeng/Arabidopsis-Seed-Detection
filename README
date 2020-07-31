@@ -1,4 +1,4 @@
-# Arabidopsis-Seed-Detection
+#Arabidopsis-Seed-Detection
 1. install anaconda, tensorflow(version lower than 2.0)
 	pip3 install anaconda
 	pip3 install tensorflow==1.13
