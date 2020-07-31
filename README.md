@@ -27,10 +27,10 @@
 
 	A. generate jupyter config file
 	
-		`jupyter-notebook --generate-config`
+		jupyter-notebook --generate-config
 	B. go to config file and change home directory to your work directory:
 	
-		`c.NotebookApp.notebook_dir = 'work_dir'`
+		c.NotebookApp.notebook_dir = 'work_dir'
 		
 * split scanned images into single plate.
 
