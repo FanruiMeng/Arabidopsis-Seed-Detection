@@ -24,9 +24,9 @@
 ## 4. Seed detection using trained model
 * Jupyter:
 ** assign home directory for jupyter
-	A. generate jupyter config file
+	** A. generate jupyter config file
 		jupyter-notebook --generate-config 
-	B. go to config file change home directory to your work directory, like below:
+	** B. go to config file change home directory to your work directory, like below:
 		c.NotebookApp.notebook_dir = 'work_dir'
 ** split scanned images into single plate.
    python 00_1_split_scan_images.py
