@@ -9,14 +9,14 @@
 ## 2. Tensorflow object detection API installation
 * [Installation instruction](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1.md)
 * Install models
+
 	`git clone https://github.com/tensorflow/models.git`
-### Python Package Installation
-	*`cd models/research`
-### Compile protos.
+* Python Package Installation
+
+	* `cd models/research`
 	* `protoc object_detection/protos/*.proto --python_out=.`
-### Install TensorFlow Object Detection API.
-* `cp object_detection/packages/tf1/setup.py .`
-* `python -m pip install`
+	* `cp object_detection/packages/tf1/setup.py .`
+	* `python -m pip install .`
 3. create a work directory 
 4. copy graph_train, research, detect_noimage.ipynb, and mscoco_label_map.pbtxt into your work directory
 5. replace research/object_detection/protos use my compiled protos(download from my github).
