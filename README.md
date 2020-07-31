@@ -28,7 +28,7 @@
 	A. generate jupyter config file
 	
 		jupyter-notebook --generate-config
-	B. go to config file and change home directory to your work directory:
+	B. Change home directory to work directory in config file:
 	
 		c.NotebookApp.notebook_dir = 'work_dir'
 		
