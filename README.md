@@ -42,5 +42,5 @@
 ### Terminal 
  * `base_path`: the absolute path including graph_train director
  * `test_images`: test images directory
- * `python detect.py --base_path=work_dir --test_images=test_image`
+ * `python detect.py --base_path=work_dir --test_images=test_image` Or
  * `python detect_save_image_results.py --base_path=work_dir --test_images=test_image`
