@@ -1,7 +1,7 @@
 # Arabidopsis Seed Detection
 
 ## 1. install anaconda, tensorflow(1.X) (version lower than 2.0)
-  * For cpu version
+  * For cpu version:
 	`pip3 install anaconda`
 	`pip3 install tensorflow==1.13.2`
   * For gpu version:
