@@ -1,8 +1,12 @@
-# Arabidopsis-Seed-Detection
-1. install anaconda, tensorflow(version lower than 2.0)
-	pip3 install anaconda
-	pip3 install tensorflow==1.13
-2. downlow the tensorflow models, URL:
+# Arabidopsis Seed Detection
+
+## 1. install anaconda, tensorflow(1.X) (version lower than 2.0)
+	`pip3 install anaconda`
+	
+	`pip3 install tensorflow==1.13.2`
+	For gpu version:
+	`pip3 install tensorflow-gup==1.13.2`
+##2. downlow the tensorflow models, URL:
 	https://github.com/tensorflow/models; and then unzip models, you can find a research directory under models
 3. create a work directory 
 4. copy graph_train, research, detect_noimage.ipynb, and mscoco_label_map.pbtxt into your work directory
