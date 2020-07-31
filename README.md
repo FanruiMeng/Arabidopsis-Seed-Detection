@@ -7,8 +7,8 @@
   * For gpu version:
 	`pip3 install tensorflow-gup==1.13.2`
 ## 2. Tensorflow object detection API installation
-	[Installation instruction](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1.md)
-	* Install models
+* [Installation instruction](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1.md)
+* Install models
 	`git clone https://github.com/tensorflow/models.git`
 3. create a work directory 
 4. copy graph_train, research, detect_noimage.ipynb, and mscoco_label_map.pbtxt into your work directory
