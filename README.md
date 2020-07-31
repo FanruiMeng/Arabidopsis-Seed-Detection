@@ -21,13 +21,14 @@
 	mkdir work_dir
 	cp graph_train models/research mscoco_label_map.pbtxt work_dir
 
-## 4. Seed detection
-. assign the home directory for jupyter
+## 4. Seed detection using trained model
+* Jupyter:
+** assign home directory for jupyter
 	A. generate jupyter config file
 		jupyter-notebook --generate-config 
 	B. go to config file change home directory to your work directory, like below:
-		c.NotebookApp.notebook_dir = 'your work directory'
-8. split scanned images into single plate.
+		c.NotebookApp.notebook_dir = 'work_dir'
+** split scanned images into single plate.
    python 00_1_split_scan_images.py
-9. run detect_noimage.ipynb at jupyter-notebook
+** run detect_noimage.ipynb at jupyter-notebook
 #If you want to save the results images, please use detect_save_image_results.ipynb
