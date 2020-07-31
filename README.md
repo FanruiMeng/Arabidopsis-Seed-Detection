@@ -17,7 +17,8 @@
 	* `protoc object_detection/protos/*.proto --python_out=.`
 	* `cp object_detection/packages/tf1/setup.py .`
 	* `python -m pip install .`
-3. create a work directory 
+## 3. create work directory 
+	mkdir work_dir
 4. copy graph_train, research, detect_noimage.ipynb, and mscoco_label_map.pbtxt into your work directory
 5. replace research/object_detection/protos use my compiled protos(download from my github).
 6. create a test_image directory at your work directory, and copy your images to test_images directory
