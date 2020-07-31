@@ -1,9 +1,9 @@
 # Arabidopsis Seed Detection
 
 ## 1. install anaconda, tensorflow(1.X) (version lower than 2.0)
-	`pip3 install anaconda
+	`pip3 install anaconda`
 	pip3 install tensorflow==1.13.2`
-      For gpu version:
+  * For gpu version:
 	`pip3 install tensorflow-gup==1.13.2`
 ## 2. Tensorflow object detection API installation
 	[Installation instruction](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1.md)
