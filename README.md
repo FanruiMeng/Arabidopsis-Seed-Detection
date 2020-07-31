@@ -19,10 +19,10 @@
 	* `python -m pip install .`
 ## 3. Create work directory 
 	mkdir work_dir
-## 4. copy graph_train, research, detect_noimage.ipynb, and mscoco_label_map.pbtxt into your work directory
-	* if can not compile protos, please replace research/object_detection/protos using my compiled [protos](https://github.com/FanruiMeng/Arabidopsis-Seed-Detection/tree/master/protos).
-6. create a test_image directory at your work directory, and copy your images to test_images directory
-7. assign the home directory for jupyter
+	cp graph_train models/research mscoco_label_map.pbtxt work_dir
+
+## 4. Seed detection
+. assign the home directory for jupyter
 	A. generate jupyter config file
 		jupyter-notebook --generate-config 
 	B. go to config file change home directory to your work directory, like below:
