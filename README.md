@@ -15,7 +15,7 @@
 
 	* `cd models/research`
 	* `protoc object_detection/protos/*.proto --python_out=.`
-	* if can not compile protos, please replace research/object_detection/protos using my compiled [protos](https://github.com/FanruiMeng/Arabidopsis-Seed-Detection/tree/master/protos).
+	** if can not compile protos, please replace research/object_detection/protos using my compiled [protos](https://github.com/FanruiMeng/Arabidopsis-Seed-Detection/tree/master/protos).
 	* `cp object_detection/packages/tf1/setup.py .`
 	* `python -m pip install .`
 ## 3. Create work directory 
