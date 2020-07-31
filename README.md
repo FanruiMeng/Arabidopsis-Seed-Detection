@@ -23,9 +23,9 @@
 
 ## 4. Seed detection using trained model
 ### Jupyter:
-* assign home directory for jupyter
+* Assign home directory for jupyter
 
-	A. generate jupyter config file
+	A. Generate jupyter config file
 	
 		jupyter-notebook --generate-config
 	B. Change home directory to work directory in config file:
