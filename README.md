@@ -1,6 +1,6 @@
 # Arabidopsis Seed Detection
 
-## 1. install anaconda, tensorflow(1.X) (version lower than 2.0)
+## 1. Anaconda, tensorflow(1.X) (version lower than 2.0) installation
   * For cpu version:
 	`pip3 install anaconda`
 	`pip3 install tensorflow==1.13.2`
@@ -10,6 +10,13 @@
 * [Installation instruction](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1.md)
 * Install models
 	`git clone https://github.com/tensorflow/models.git`
+### Python Package Installation
+	*`cd models/research`
+### Compile protos.
+	* `protoc object_detection/protos/*.proto --python_out=.`
+### Install TensorFlow Object Detection API.
+* `cp object_detection/packages/tf1/setup.py .`
+* `python -m pip install`
 3. create a work directory 
 4. copy graph_train, research, detect_noimage.ipynb, and mscoco_label_map.pbtxt into your work directory
 5. replace research/object_detection/protos use my compiled protos(download from my github).
