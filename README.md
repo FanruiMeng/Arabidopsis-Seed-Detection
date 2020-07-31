@@ -22,7 +22,7 @@
 	cp graph_train models/research mscoco_label_map.pbtxt work_dir
 
 ## 4. Seed detection using trained model
-* Jupyter:
+### Jupyter:
 assign home directory for jupyter
 	A. generate jupyter config file
 		jupyter-notebook --generate-config 
