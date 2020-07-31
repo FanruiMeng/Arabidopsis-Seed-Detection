@@ -2,12 +2,13 @@
 
 ## 1. install anaconda, tensorflow(1.X) (version lower than 2.0)
 	`pip3 install anaconda`
-	
 	`pip3 install tensorflow==1.13.2`
 	For gpu version:
 	`pip3 install tensorflow-gup==1.13.2`
-##2. downlow the tensorflow models, URL:
-	https://github.com/tensorflow/models; and then unzip models, you can find a research directory under models
+## 2. Tensorflow object detection API installation
+	[Installation instruction](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1.md)
+	* Install models
+	`git clone https://github.com/tensorflow/models.git`
 3. create a work directory 
 4. copy graph_train, research, detect_noimage.ipynb, and mscoco_label_map.pbtxt into your work directory
 5. replace research/object_detection/protos use my compiled protos(download from my github).
